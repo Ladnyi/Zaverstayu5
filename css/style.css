@@ -18,4 +18,152 @@
 
 body {
   font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #533738;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1400px;
+  background-color: #efe6e4;
+}
+
+.h2__title {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+
+/*Header*/
+.header {
+  background-image: url("../images/header-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 715px;
+}
+
+.header__top {
+  display: flex;
+}
+
+.nav__list {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav__link .header__phone {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.main-title {
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 62px;
+  max-width: 534px;
+}
+
+.header__text {
+  max-width: 493px;
+}
+
+.header__link {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  padding: 24px 67px;
+  background-color: #cc8b86;
+}
+
+/*About*/
+.about {
+  padding: 0 182px;
+}
+
+.advances__list {
+  display: flex;
+}
+
+.advances__value {
+  margin: 0;
+}
+
+/*Works*/
+.works__card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px 20px;
+}
+
+.works__description {
+  position: relative;
+  background-image: url("../images/works-description.jpg");
+  background-size: cover;
+  z-index: 0;
+  max-width: 488px;
+  flex-grow: 1;
+}
+
+.works__description::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(100, 72, 69, 0.8);
+  z-index: -1;
+}
+
+.works__card-title {
+  max-width: 270px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.works__card-description {
+  color: #ffffff;
+  max-width: 418px;
+}
+
+.works__btn {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
+  color: #533738;
+}
+
+.works__btn::after {
+  content: url("../images/Arrow.svg");
+  margin-left: 10px;
+}
+
+/*Team*/
+.team__list {
+  display: flex;
+  list-style-type: none;
+}
+
+.team__item {
+  max-width: 320px;
 }
