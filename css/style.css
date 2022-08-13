@@ -159,6 +159,10 @@ button {
 }
 
 /*Team*/
+.team {
+  background-color: #e2c4ba;
+}
+
 .team__list {
   display: flex;
   list-style-type: none;
@@ -166,4 +170,39 @@ button {
 
 .team__item {
   max-width: 320px;
+}
+
+/*Process*/
+.process {
+  background-color: #e2c4ba;
+}
+
+.process__list {
+  display: flex;
+  list-style-type: none;
+}
+
+.process__num {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: #ffffff;
+  width: 70px;
+  height: 70px;
+  background-color: #8d7370;
+  border-radius: 50%;
+}
+
+/*Reviews*/
+
+/*Request*/
+.request {
+  background-color: #533738;
+  color: #ffffff;
+}
+
+/*Footer*/
+.footer {
+  display: flex;
 }
