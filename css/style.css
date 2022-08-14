@@ -58,19 +58,34 @@ button {
 
 .header__top {
   display: flex;
+  padding: 36px 100px 0 98px;
+  align-items: center;
+}
+
+.logo__link {
+  display: flex;
+  align-items: center;
 }
 
 .nav__list {
   display: flex;
+  justify-content: space-between;
+  gap: 26px;
   list-style-type: none;
-  margin: 0;
+  margin: 0 35px 0 92px;
   padding: 0;
 }
 
-.nav__link .header__phone {
+.nav__link,
+.header__phone {
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
+}
+
+.header__intro {
+  padding-left: 182px;
+  padding-top: 91px;
 }
 
 .main-title {
@@ -78,18 +93,25 @@ button {
   font-size: 50px;
   line-height: 62px;
   max-width: 534px;
+  margin-bottom: 24px;
+  margin-top: 0;
 }
 
 .header__text {
   max-width: 493px;
+  margin-bottom: 21px;
+  margin-top: 0;
 }
 
 .header__link {
+  max-width: 309px;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
   padding: 24px 67px;
   background-color: #cc8b86;
+  display: block;
+  box-sizing: border-box;
 }
 
 /*About*/
