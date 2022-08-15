@@ -115,15 +115,41 @@ button {
 }
 
 /*About*/
-.about {
+.about {}
+
+.about__title {
+  text-align: center;
+}
+
+.about__wrapper {
+  display: flex;
+  gap: 63px;
   padding: 0 182px;
+}
+
+.about__text {
+  max-width: 528px;
+  margin: 0 0 40px 0;
 }
 
 .advances__list {
   display: flex;
+  justify-content: space-around;
+  background-color: #8d7370;
+  color: #ffffff;
+  text-align: center;
+  padding: 85px 0 81px 0;
+}
+
+.advances__key {
+  font-size: 50px;
+  line-height: 62px;
 }
 
 .advances__value {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
   margin: 0;
 }
 
