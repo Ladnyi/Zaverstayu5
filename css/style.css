@@ -118,8 +118,6 @@ button {
 }
 
 /*About*/
-.about {}
-
 .about__title {
   text-align: center;
 }
@@ -158,10 +156,15 @@ button {
 }
 
 /*Works*/
+.works__title {
+  padding-left: 100px;
+}
+
 .works__card {
   display: flex;
   flex-wrap: wrap;
   gap: 30px 20px;
+  justify-content: center;
 }
 
 .works__description {
@@ -171,6 +174,9 @@ button {
   z-index: 0;
   max-width: 488px;
   flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .works__description::before {
@@ -191,18 +197,22 @@ button {
   line-height: 37px;
   text-align: center;
   color: #ffffff;
+  margin: 86px 0 33px;
 }
 
 .works__card-description {
   color: #ffffff;
   max-width: 418px;
+  margin: 0;
 }
 
 .works__btn {
+  display: block;
   font-weight: 500;
   font-size: 30px;
   line-height: 37px;
   color: #533738;
+  margin: 40px auto 65px;
 }
 
 .works__btn::after {
