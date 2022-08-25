@@ -128,6 +128,12 @@ button {
   padding: 0 182px;
 }
 
+.about__img {
+  max-width: 444px;
+  width: 100%;
+  height: auto;
+}
+
 .about__text {
   max-width: 528px;
   margin: 0 0 40px 0;
@@ -257,6 +263,7 @@ button {
 /*Process*/
 .process {
   background-color: #e2c4ba;
+  margin-bottom: 65px;
 }
 
 .process__title {
@@ -294,6 +301,44 @@ button {
 }
 
 /*Reviews*/
+.reviews {
+  margin-bottom: 65px;
+}
+
+.reviews__title {
+  text-align: center;
+}
+
+.rewiews__gallery {
+  display: flex;
+  justify-content: center;
+}
+
+.reviews__card {
+  display: grid;
+  grid-template-columns: 407px 407px;
+  gap: 24px 20px;
+  margin: 0 29px;
+}
+
+.reviews__text {
+  grid-row: span 2;
+  margin: auto 0;
+}
+
+.reviews__paragraph {
+  margin-top: 0;
+  margin-bottom: 35px;
+}
+
+.reviews__paragraph:last-of-type {
+  margin-bottom: 19px;
+}
+
+.reviews__author {
+  text-transform: uppercase;
+  font-style: normal;
+}
 
 /*Request*/
 .request {
