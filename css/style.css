@@ -36,27 +36,27 @@ button {
 }
 
 .container {
-  margin: 0 auto;
   max-width: 1400px;
+  margin: 0 auto;
   background-color: #efe6e4;
 }
 
 .h2__title {
+  margin-top: 0;
+  margin-bottom: 40px;
   font-weight: 400;
   font-size: 40px;
   line-height: 50px;
   text-transform: uppercase;
-  margin-top: 0;
-  margin-bottom: 40px;
 }
 
 /*Header*/
 .header {
+  height: 715px;
+  margin-bottom: 65px;
   background-image: url("../images/header-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 715px;
-  margin-bottom: 65px;
 }
 
 .header__top {
@@ -75,9 +75,9 @@ button {
   justify-content: space-between;
   gap: 26px;
   flex-wrap: wrap;
-  list-style-type: none;
   margin: 0 35px 0 92px;
   padding: 0;
+  list-style-type: none;
 }
 
 .nav__link,
@@ -97,12 +97,12 @@ button {
 }
 
 .main-title {
+  margin-top: 0;
+  max-width: 534px;
+  margin-bottom: 24px;
   font-weight: 400;
   font-size: 50px;
   line-height: 62px;
-  max-width: 534px;
-  margin-bottom: 24px;
-  margin-top: 0;
 }
 
 .header__text {
@@ -112,14 +112,14 @@ button {
 }
 
 .header__link {
+  display: block;
   max-width: 309px;
+  padding: 24px 67px;
+  box-sizing: border-box;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-  padding: 24px 67px;
   background-color: #cc8b86;
-  display: block;
-  box-sizing: border-box;
 }
 
 /*About*/
@@ -147,11 +147,11 @@ button {
 .advances__list {
   display: flex;
   justify-content: space-around;
+  margin: 21px 0 65px;
+  padding: 85px 0 81px 0;
+  text-align: center;
   background-color: #8d7370;
   color: #ffffff;
-  text-align: center;
-  padding: 85px 0 81px 0;
-  margin: 21px 0 65px;
 }
 
 .advances__key {
@@ -160,10 +160,10 @@ button {
 }
 
 .advances__value {
+  margin: 0;
   font-weight: 500;
   font-size: 30px;
   line-height: 37px;
-  margin: 0;
 }
 
 /*Works*/
@@ -173,21 +173,21 @@ button {
 
 .works__card {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 30px 20px;
-  justify-content: center;
 }
 
 .works__description {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  max-width: 488px;
+  align-items: center;
   background-image: url("../images/works-description.jpg");
   background-size: cover;
   z-index: 0;
-  max-width: 488px;
-  flex-grow: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .works__description::before {
@@ -203,33 +203,38 @@ button {
 
 .works__card-title {
   max-width: 270px;
+  margin: 86px 0 33px;
+  text-align: center;
   font-weight: 500;
   font-size: 30px;
   line-height: 37px;
-  text-align: center;
   color: #ffffff;
-  margin: 86px 0 33px;
 }
 
 .works__card-description {
-  color: #ffffff;
   max-width: 418px;
   margin: 0;
+  color: #ffffff;
 }
 
 .works__btn {
   display: block;
+  margin: 40px auto 65px;
   font-weight: 500;
   font-size: 30px;
   line-height: 37px;
   color: #533738;
-  margin: 40px auto 65px;
   cursor: pointer;
 }
 
+.works__btn:hover {
+  font-size: 32px;
+  color: #cc8b86;
+}
+
 .works__btn::after {
-  content: url("../images/Arrow.svg");
   margin-left: 10px;
+  content: url("../images/Arrow.svg");
 }
 
 /*Team*/
@@ -238,19 +243,19 @@ button {
 }
 
 .team__title {
-  text-align: center;
   display: block;
   padding-top: 50px;
+  text-align: center;
 }
 
 .team__list {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  list-style-type: none;
   padding: 0;
   margin: 0;
   gap: 38px;
+  list-style-type: none;
 }
 
 .team__item {
@@ -268,8 +273,8 @@ button {
 
 /*Process*/
 .process {
-  background-color: #e2c4ba;
   margin-bottom: 65px;
+  background-color: #e2c4ba;
 }
 
 .process__title {
@@ -278,25 +283,25 @@ button {
 
 .process__list {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 20px;
-  justify-content: center;
   list-style-type: none;
 }
 
 .process__num {
   display: flex;
   justify-content: center;
+  width: 70px;
+  height: 70px;
+  margin: 0 auto;
   align-items: center;
   font-weight: 500;
   font-size: 30px;
   line-height: 30px;
   color: #ffffff;
-  width: 70px;
-  height: 70px;
   background-color: #8d7370;
   border-radius: 50%;
-  margin: 0 auto;
 }
 
 .process__description {
@@ -347,8 +352,8 @@ button {
 }
 
 .reviews__author {
-  text-transform: uppercase;
   font-style: normal;
+  text-transform: uppercase;
 }
 
 /*Request*/
@@ -356,8 +361,8 @@ button {
   display: flex;
   column-gap: 20px;
   justify-content: center;
-  background-color: #533738;
   color: #ffffff;
+  background-color: #533738;
 }
 
 .visually-hidden {
@@ -398,11 +403,11 @@ button {
 
 .form__input {
   width: 508px;
-  border: none;
+  margin-bottom: 40px;
   padding-bottom: 4px;
+  border: none;
   border-bottom: 1px solid #ffffff;
   background-color: transparent;
-  margin-bottom: 40px;
 }
 
 .form__input:last-of-type {
@@ -421,9 +426,9 @@ button {
 }
 
 .form__btn {
+  display: block;
   width: 309px;
   height: 74px;
-  display: block;
   background-color: #cc8b86;
   cursor: pointer;
 }
