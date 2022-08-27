@@ -74,6 +74,7 @@ button {
   display: flex;
   justify-content: space-between;
   gap: 26px;
+  flex-wrap: wrap;
   list-style-type: none;
   margin: 0 35px 0 92px;
   padding: 0;
@@ -84,6 +85,10 @@ button {
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
+}
+
+.header__phone {
+  min-width: 145px;
 }
 
 .header__intro {
@@ -219,6 +224,7 @@ button {
   line-height: 37px;
   color: #533738;
   margin: 40px auto 65px;
+  cursor: pointer;
 }
 
 .works__btn::after {
@@ -312,6 +318,11 @@ button {
 .rewiews__gallery {
   display: flex;
   justify-content: center;
+}
+
+.reviews__btn {
+  transform: translateY(-13px);
+  cursor: pointer;
 }
 
 .reviews__card {
@@ -429,5 +440,5 @@ button {
 }
 
 .footer__name {
-  margin-left: auto;
+  margin: 0 0 0 auto;
 }
