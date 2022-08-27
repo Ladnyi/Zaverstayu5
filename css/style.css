@@ -54,6 +54,7 @@ button {
 .header {
   height: 715px;
   margin-bottom: 65px;
+  background-color: #c29d71;
   background-image: url("../images/header-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -185,6 +186,7 @@ button {
   flex-grow: 1;
   max-width: 488px;
   align-items: center;
+  background-color: rgba(100, 72, 69, 0.8);
   background-image: url("../images/works-description.jpg");
   background-size: cover;
   z-index: 0;
