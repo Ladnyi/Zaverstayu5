@@ -92,6 +92,12 @@ button {
   min-width: 145px;
 }
 
+.nav__link:focus,
+.header__phone:focus {
+  outline: 2px solid #cc8b86;
+  outline-offset: 2px;
+}
+
 .header__intro {
   padding-left: 182px;
   padding-top: 91px;
@@ -121,6 +127,11 @@ button {
   font-size: 20px;
   line-height: 24px;
   background-color: #cc8b86;
+}
+
+.header__link:focus {
+  outline: 2px solid #8d7370;
+  outline-offset: 3px;
 }
 
 /*About*/
@@ -230,13 +241,22 @@ button {
 }
 
 .works__btn:hover {
-  font-size: 32px;
   color: #cc8b86;
 }
 
 .works__btn::after {
-  margin-left: 10px;
   content: url("../images/Arrow.svg");
+  margin-left: 10px;
+}
+
+.works__btn:hover::after {
+  content: url("../images/Arrow-hover.svg");
+  margin-left: 15px;
+}
+
+.works__btn:focus {
+  outline: 2px solid #cc8b86;
+  outline-offset: 2px;
 }
 
 /*Team*/
@@ -328,8 +348,14 @@ button {
 }
 
 .reviews__btn {
+  margin: auto 0;
   transform: translateY(-13px);
   cursor: pointer;
+}
+
+.reviews__btn:focus {
+  outline: 2px solid #8d7370;
+  outline-offset: 3px;
 }
 
 .reviews__card {
@@ -417,7 +443,11 @@ button {
 }
 
 .form__input::placeholder {
-  color: #ffffff;
+  color: #F6EDE9;
+}
+
+.form__input:focus {
+  outline: 2px solid #F6EDE9;
 }
 
 .form__map {
@@ -435,10 +465,20 @@ button {
   cursor: pointer;
 }
 
+.form__btn:focus {
+  outline: 2px solid #F6EDE9;
+  outline-offset: 2px;
+}
+
 /*Footer*/
 .footer {
   display: flex;
   padding: 37px 100px;
+}
+
+.footer__phone:focus {
+  outline: 2px solid #cc8b86;
+  outline-offset: 2px;
 }
 
 .footer__addres {
