@@ -16,25 +16,6 @@
   font-display: swap;
 }
 
-body {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 30px;
-  color: #533738;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-button {
-  padding: 0;
-  border: none;
-  background-color: transparent;
-}
-
 .container {
   max-width: 1400px;
   margin: 0 auto;
@@ -44,16 +25,22 @@ button {
 .h2__title {
   margin-top: 0;
   margin-bottom: 40px;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 40px;
   line-height: 50px;
   text-transform: uppercase;
+  color: #533738;
 }
 
 /*Header*/
 .header {
   height: 715px;
   margin-bottom: 65px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  line-height: 30px;
+  color: #533738;
   background-color: #c29d71;
   background-image: url("../images/header-bg.jpg");
   background-repeat: no-repeat;
@@ -83,9 +70,10 @@ button {
 
 .nav__link,
 .header__phone {
-  font-weight: 400;
   font-size: 16px;
   line-height: 20px;
+  text-decoration: none;
+  color: #533738;
 }
 
 .header__phone {
@@ -107,8 +95,8 @@ button {
   margin-top: 0;
   max-width: 534px;
   margin-bottom: 24px;
-  font-weight: 400;
   font-size: 50px;
+  font-weight: 400;
   line-height: 62px;
 }
 
@@ -116,6 +104,10 @@ button {
   max-width: 493px;
   margin-bottom: 21px;
   margin-top: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  color: #533738;
 }
 
 .header__link {
@@ -126,7 +118,9 @@ button {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
+  color: #533738;
   background-color: #cc8b86;
+  text-decoration: none;
 }
 
 .header__link:focus {
@@ -154,6 +148,11 @@ button {
 .about__text {
   max-width: 528px;
   margin: 0 0 40px 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #533738;
 }
 
 .advances__list {
@@ -162,12 +161,14 @@ button {
   margin: 21px 0 65px;
   padding: 85px 0 81px 0;
   text-align: center;
+  font-family: "Montserrat", sans-serif;
   background-color: #8d7370;
   color: #ffffff;
 }
 
 .advances__key {
   font-size: 50px;
+  font-weight: 400;
   line-height: 62px;
 }
 
@@ -200,10 +201,11 @@ button {
   background-color: rgba(100, 72, 69, 0.8);
   background-image: url("../images/works-description.jpg");
   background-size: cover;
+  color: #ffffff;
   z-index: 0;
 }
 
-.works__description::before {
+.works__description:hover:before {
   content: "";
   position: absolute;
   top: 0;
@@ -218,26 +220,34 @@ button {
   max-width: 270px;
   margin: 86px 0 33px;
   text-align: center;
+  font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 30px;
   line-height: 37px;
-  color: #ffffff;
 }
 
 .works__card-description {
   max-width: 418px;
   margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
   color: #ffffff;
 }
 
 .works__btn {
   display: block;
   margin: 40px auto 65px;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 30px;
   line-height: 37px;
   color: #533738;
   cursor: pointer;
+  background-color: transparent;
+  border: none;
 }
 
 .works__btn:hover {
@@ -261,6 +271,11 @@ button {
 
 /*Team*/
 .team {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #533738;
   background-color: #e2c4ba;
 }
 
@@ -296,6 +311,11 @@ button {
 /*Process*/
 .process {
   margin-bottom: 65px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #533738;
   background-color: #e2c4ba;
 }
 
@@ -336,6 +356,11 @@ button {
 /*Reviews*/
 .reviews {
   margin-bottom: 65px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #533738;
 }
 
 .reviews__title {
@@ -349,8 +374,11 @@ button {
 
 .reviews__btn {
   margin: auto 0;
+  padding: 0;
   transform: translateY(-13px);
   cursor: pointer;
+  border: none;
+  background-color: transparent;
 }
 
 .reviews__btn:focus {
@@ -389,6 +417,10 @@ button {
   display: flex;
   column-gap: 20px;
   justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
   color: #ffffff;
   background-color: #533738;
 }
@@ -409,6 +441,7 @@ button {
 .request__title {
   margin-top: 50px;
   margin-bottom: 24px;
+  color: #ffffff;
 }
 
 .form__wrapper {
@@ -461,8 +494,14 @@ button {
   display: block;
   width: 309px;
   height: 74px;
+  padding: 0;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #533738;
   background-color: #cc8b86;
   cursor: pointer;
+  border: none;
 }
 
 .form__btn:focus {
@@ -474,6 +513,16 @@ button {
 .footer {
   display: flex;
   padding: 37px 100px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #533738;
+}
+
+.footer__phone {
+  text-decoration: none;
+  color: #533738;
 }
 
 .footer__phone:focus {
